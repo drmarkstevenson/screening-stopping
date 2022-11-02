@@ -24,7 +24,7 @@ These can be downloaded from https://github.com/CLEF-TAR/tar
 where
 ~~~
   DIR is directory containing a list of runs
-  TARGET_RECALL is the target recall provided to the stopping algorithm (required for reliability metric)
+  TARGET_RECALL is the target recall provided to the stopping algorithm (required for loss metric)
   QRELS_FILE is the location of the qrels file
   -v flag produces verbose output (results printed for each topic) 
 ~~~
