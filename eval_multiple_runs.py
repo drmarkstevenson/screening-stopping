@@ -103,7 +103,7 @@ def main():
 def run_tar_eval(qrel_fname, out_fname, run_counter, des_recall): 
      
       # Location of script
-      script = './scripts/tar_eval.py'
+      script = './tar-master/scripts/tar_eval.py'
       
       # Run tar_eval script (supressing stderr) 
       ret = subprocess.check_output(['python', script, qrel_fname, out_fname], stderr=subprocess.DEVNULL)

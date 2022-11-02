@@ -10,9 +10,10 @@ Results are averaged across runs (with standard deviation reported in brackets).
 
 ## Prerequisite
 
-Script assumes that tar_eval.py (and associated scripts) are available via ./scripts/tar_eval.py
+Script assumes that tar_eval.py (and associated scripts) are available via ./tar-master/scripts/tar_eval.py
 
-These can be downloaded from https://github.com/CLEF-TAR/tar
+Download from https://github.com/CLEF-TAR/tar and uncompress in same
+directory as eval_multiple_runs.py
 
 ## Running script 
 
